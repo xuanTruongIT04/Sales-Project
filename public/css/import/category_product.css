@@ -1,0 +1,169 @@
+/*CATEGOGRY PRODUCT*/
+#breadcrumb-wp{ margin-bottom: 20px;}
+#breadcrumb-wp .list-item li{ float: left;}
+#breadcrumb-wp .list-item li a{
+    position: relative;
+    display: block;
+    color: #333;
+    padding-left: 20px;
+    line-height: normal;
+}
+
+#breadcrumb-wp .list-item li a.children-bread-crumb {
+    color: #868686;
+}
+#breadcrumb-wp .list-item li:first-child a:before{
+    position: absolute;
+    content: '\f015';
+    font-family: 'FontAwesome';
+    top: 1px;
+    left: 0;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:nth-child(n+2) a:before{
+    position: absolute;
+    content: '\f105';
+    font-family: 'FontAwesome';
+    top: 1px;
+    left: 8px;
+    line-height: normal;
+}
+.category-product-page #list-product-wp .section-title{ margin: 0;}
+.category-product-page #list-product-wp .section-title .key-word-content {
+    text-transform: none;
+}
+.category-product-page #list-product-wp .section-head{ margin-bottom: 25px;}
+.filter-wp .desc{ margin-bottom: 5px; color: #666; text-align: right;}
+.filter-wp form select{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #cecece;
+    color: #666;
+}
+.filter-wp form button{
+    position: relative;
+    left: -4px;
+    background: #325fc798;
+    border: none;
+    outline: none;
+    padding: 3px 15px;
+    line-height: 25px;
+    color: #fff;
+}
+.filter-wp form button:hover{ background: #2b22dc;}
+#filter-product-wp{ background: #fff;}
+#filter-product-wp .section-detail{ padding: 15px 20px;}
+#filter-product-wp .section-detail table{
+    width: 100%;
+    margin-bottom: 15px;
+}
+#filter-product-wp .section-detail table thead tr td, #filter-product-wp .section-detail .filter-price-title{ 
+    font-size: 16px; 
+    color: #000; 
+    padding-bottom: 10px;
+}
+
+#filter-product-wp .section-detail .filter-price {
+    margin-bottom: 15px;
+}
+
+#filter-product-wp .section-detail .filter-price input#amout {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 4px;
+    background: #cccccc17;
+    color: green;
+}
+
+#filter-product-wp .section-detail .filter-price-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#filter-product-wp .section-detail table tbody tr td{ padding-bottom: 5px;}
+#paging-wp{ text-align: center; margin-top: 25px;}
+#paging-wp .list-item{ display: inline-block;}
+#paging-wp .list-item li{ float: left; margin-right: 5px;}
+#paging-wp .list-item li:last-child{ margin-right: 0;}
+#paging-wp .list-item li a{
+    background: #ababab;
+    padding: 8px 12px;
+    color: #fff;
+}
+#paging-wp .list-item li a:hover{ background: #868686;}
+
+.no-product-found, .empty-product{ 
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1063px;
+    width: 540px;
+}
+
+.no-product-found .no-product-found-icon {
+    margin-top: 50px;
+}
+
+.no-product-found .no-product-found-title {
+    font-size: 27px;
+    margin: 18px 0;
+    font-weight: 600;
+}
+
+.empty-product .empty-product-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.empty-product .return-home {
+    padding: 4px 12px;
+    background-color: rgba(0, 0, 255, 0.783);
+    color: #FFF;
+    width: 30%;
+    margin: 20px auto 0 auto;
+    border-radius: 2px;
+    transition: all 0.15s ease-in-out;
+}
+
+.empty-product .return-home:hover {
+    background-color: rgba(0, 0, 255, 0.994);
+}
+
+.empty-product .empty-product-hint {
+    margin-bottom: -8px;
+    margin-top: 8px;
+}
+
+
+#filter_product_by_price h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 550;
+    color: #333333;
+}
+#filter_product_by_price .fpbp_content_item {
+    margin-bottom: 8px;
+    display: block;
+}
+
+#filter_product_by_price .fpbp_content_item label {
+    margin-left: 4px;
+    transition: all 0.25s ease-in-out;
+}
+
+#filter_product_by_price .fpbp_content_item label:hover {
+    cursor: pointer;
+    color: #2b22dc;
+}
+
+#method-filter-nav-pdc{
+    font-size: 18px;
+    margin-top: 14px;
+    color: blue;
+    background: #7dde0c;
+    padding: 1px 14px;
+}
+

@@ -1,0 +1,115 @@
+.upload__inputfile {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.upload__btn {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    min-width: 116px;
+    padding: 4px 8px;
+    transition: all .2s linear;
+    cursor: pointer;
+    border: 2px solid rgba(204, 204, 204, 0.834);
+    background-color: rgba(204, 204, 204, 0.387);
+    box-sizing: border-box;
+}
+
+.upload__btn:hover {
+    background-color: rgba(204, 204, 204, 0.722);
+    color: #000;
+    transition: all .3s ease;
+}
+
+.upload__btn-box {
+    margin-bottom: 10px;
+}
+
+.upload__img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.upload__img-box {
+    width: 200px;
+    padding: 0 10px;
+    margin-bottom: 12px;
+}
+
+.upload__img-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.upload__img-close:after {
+    content: '\2716';
+    font-size: 14px;
+    color: white;
+}
+
+.img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.thumbnail-multiple {
+    max-width: 200px;
+    height: auto;
+}
+
+.thumbnail-multiple img {
+    max-width: 200px;
+    height: auto;
+}
+
+#content #upload_multithumb_product .product-thumb {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#content #upload_multithumb_product .product-thumb .thumb-main {
+    flex-basis: 30%;
+}
+
+#content #upload_multithumb_product .product-thumb .thumb-main img {
+    max-width: 250px;
+    height: auto;
+    border: 1px solid #cdc6ed;
+    border-radius: 4px;
+}
+
+#content #upload_multithumb_product .product-thumb .thumb-sub {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#content #upload_multithumb_product .product-thumb .thumb-sub img {
+    max-width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#content .sales {
+    font-size: 16px;
+    text-transform: uppercase;
+}
